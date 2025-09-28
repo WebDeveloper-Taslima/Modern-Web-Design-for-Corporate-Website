@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pfenning Logistics - Modern Logistics Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-cube"></div>
+                    <span class="logo-text">pfenning logistics</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <div class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle">
+                            <span>Services</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Logistics</a>
+                            <a href="#" class="dropdown-item">Mobility</a>
+                            <a href="#" class="dropdown-item">Manufacturing</a>
+                            <a href="#" class="dropdown-item">Personnel leasing</a>
+                        </div>
+                    </div>
+                    <a href="#industries" class="nav-link">Industries</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#news" class="nav-link">News</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <button class="btn btn-primary">Get Quote</button>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <div class="mobile-menu-content">
+                    <a href="#services" class="mobile-menu-item">Services</a>
+                    <a href="#industries" class="mobile-menu-item">Industries</a>
+                    <a href="#about" class="mobile-menu-item">About</a>
+                    <a href="#news" class="mobile-menu-item">News</a>
+                    <a href="#contact" class="mobile-menu-item">Contact</a>
+                    <button class="btn btn-primary mobile-cta">Get Quote</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <!-- Animated cube elements -->
+        <div class="hero-cubes">
+            <div class="cube cube-1"></div>
+            <div class="cube cube-2"></div>
+            <div class="cube cube-3"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">
+                THINKING AHEAD — 
+                <br>
+                <span class="hero-title-accent">MOVING FORWARD</span>
+            </h1>
+            <p class="hero-subtitle">
+                Part of Your Process. Comprehensive logistics solutions that drive your business forward with innovation, reliability, and precision.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary btn-large">Discover Our Services</button>
+                <button class="btn btn-outline btn-large">Watch Our Story</button>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Service Areas -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Core Services</h2>
+                <p class="section-subtitle">
+                    Four strategic areas of expertise designed to optimize your entire supply chain and business operations.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3 class="service-title">Logistics</h3>
+                    <p class="service-description">
+                        Comprehensive logistics solutions including warehouse management, transport logistics, and contract logistics.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Warehouse Logistics</li>
+                        <li><i class="fas fa-check-circle"></i> Transport Solutions</li>
+                        <li><i class="fas fa-check-circle"></i> Contract Logistics</li>
+                        <li><i class="fas fa-check-circle"></i> Supply Chain Management</li>
+                    </ul>
+                    <button class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="service-title">Mobility</h3>
+                    <p class="service-description">
+                        Innovative mobility solutions including fleet services and modern transportation concepts.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Fleet Services</li>
+                        <li><i class="fas fa-check-circle"></i> Vehicle Management</li>
+                        <li><i class="fas fa-check-circle"></i> Mobility Concepts</li>
+                        <li><i class="fas fa-check-circle"></i> Route Optimization</li>
+                    </ul>
+                    <button class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3 class="service-title">Manufacturing</h3>
+                    <p class="service-description">
+                        Production and manufacturing services, including specialized metal processing solutions.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Metal Processing</li>
+                        <li><i class="fas fa-check-circle"></i> Production Services</li>
+                        <li><i class="fas fa-check-circle"></i> Quality Control</li>
+                        <li><i class="fas fa-check-circle"></i> Manufacturing Solutions</li>
+                    </ul>
+                    <button class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="service-title">Personnel leasing</h3>
+                    <p class="service-description">
+                        Professional personnel services providing skilled workforce for logistics and industrial sectors.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Skilled Personnel</li>
+                        <li><i class="fas fa-check-circle"></i> Industrial Staffing</li>
+                        <li><i class="fas fa-check-circle"></i> Logistics Workforce</li>
+                        <li><i class="fas fa-check-circle"></i> Flexible Solutions</li>
+                    </ul>
+                    <button class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- USPs Section -->
+    <section class="usps">
+        <div class="container">
+            <div class="section-header section-header-white">
+                <h2 class="section-title">Why Choose pfenning logistics?</h2>
+                <p class="section-subtitle">
+                    Decades of expertise, cutting-edge technology, and unwavering commitment to excellence.
+                </p>
+            </div>
+
+            <div class="usps-grid">
+                <div class="usp-item">
+                    <div class="usp-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="usp-title">Reliability</h3>
+                    <p class="usp-description">99.8% on-time delivery rate with comprehensive tracking and real-time updates.</p>
+                </div>
+                <div class="usp-item">
+                    <div class="usp-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="usp-title">Excellence</h3>
+                    <p class="usp-description">Award-winning service quality recognized by industry leaders and clients globally.</p>
+                </div>
+                <div class="usp-item">
+                    <div class="usp-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="usp-title">Global Reach</h3>
+                    <p class="usp-description">Worldwide network with local expertise in over 50 countries and growing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trusted & Certified</h2>
+                <p class="section-subtitle">
+                    Our certifications and partnerships ensure the highest standards of quality and compliance.
+                </p>
+            </div>
+
+            <div class="certifications-grid">
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h4 class="cert-name">ISO 9001</h4>
+                    <p class="cert-desc">Quality Management</p>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h4 class="cert-name">ISO 14001</h4>
+                    <p class="cert-desc">Environmental</p>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h4 class="cert-name">OHSAS 18001</h4>
+                    <p class="cert-desc">Safety Standards</p>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h4 class="cert-name">GDP</h4>
+                    <p class="cert-desc">Good Distribution</p>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h4 class="cert-name">AEO</h4>
+                    <p class="cert-desc">Authorized Operator</p>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h4 class="cert-name">TAPA</h4>
+                    <p class="cert-desc">Asset Protection</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="industries">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Industries We Serve</h2>
+                <p class="section-subtitle">
+                    Specialized solutions tailored to the unique requirements of diverse industry sectors.
+                </p>
+            </div>
+
+            <div class="industries-grid">
+                <div class="industry-card" style="background-image: url('https://images.pexels.com/photos/190574/pexels-photo-190574.jpeg')">
+                    <div class="industry-overlay"></div>
+                    <h3 class="industry-title">Automotive</h3>
+                </div>
+                <div class="industry-card" style="background-image: url('https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg')">
+                    <div class="industry-overlay"></div>
+                    <h3 class="industry-title">Retail</h3>
+                </div>
+                <div class="industry-card" style="background-image: url('https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg')">
+                    <div class="industry-overlay"></div>
+                    <h3 class="industry-title">Manufacturing</h3>
+                </div>
+                <div class="industry-card" style="background-image: url('https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg')">
+                    <div class="industry-overlay"></div>
+                    <h3 class="industry-title">Healthcare</h3>
+                </div>
+                <div class="industry-card" style="background-image: url('https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg')">
+                    <div class="industry-overlay"></div>
+                    <h3 class="industry-title">Technology</h3>
+                </div>
+                <div class="industry-card" style="background-image: url('https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg')">
+                    <div class="industry-overlay"></div>
+                    <h3 class="industry-title">Food & Beverage</h3>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <button class="btn btn-primary btn-large">View All Industries</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Optimize Your Logistics?</h2>
+                <p class="cta-subtitle">
+                    Let's discuss how our comprehensive logistics solutions can transform your supply chain and drive your business forward.
+                </p>
+                <div class="cta-buttons">
+                    <button class="btn btn-white btn-large">Request Consultation</button>
+                    <button class="btn btn-outline-white btn-large">Download Brochure</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest News & Updates</h2>
+                <p class="section-subtitle">
+                    Stay informed about our latest developments, industry insights, and company milestones.
+                </p>
+            </div>
+
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-image" style="background-image: url('https://images.pexels.com/photos/1427541/pexels-photo-1427541.jpeg')"></div>
+                    <div class="news-content">
+                        <div class="news-date">
+                            <i class="fas fa-calendar"></i>
+                            Dec 15, 2024
+                        </div>
+                        <h3 class="news-title">pfenning logistics expands European network</h3>
+                        <p class="news-excerpt">New distribution centers in key European markets strengthen our logistics capabilities.</p>
+                        <button class="news-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image" style="background-image: url('https://images.pexels.com/photos/1292464/pexels-photo-1292464.jpeg')"></div>
+                    <div class="news-content">
+                        <div class="news-date">
+                            <i class="fas fa-calendar"></i>
+                            Dec 10, 2024
+                        </div>
+                        <h3 class="news-title">Sustainability initiative launch</h3>
+                        <p class="news-excerpt">New green logistics program reduces carbon footprint by 30% across all operations.</p>
+                        <button class="news-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image" style="background-image: url('https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg')"></div>
+                    <div class="news-content">
+                        <div class="news-date">
+                            <i class="fas fa-calendar"></i>
+                            Dec 5, 2024
+                        </div>
+                        <h3 class="news-title">Digital transformation milestone</h3>
+                        <p class="news-excerpt">AI-powered logistics optimization system now operational across all facilities.</p>
+                        <button class="news-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+            </div>
+
+            <div class="section-cta">
+                <button class="btn btn-primary btn-large">View All News</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="section-header">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-subtitle">
+                        Ready to discuss your logistics needs? Our experts are here to help you find the perfect solution.
+                    </p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3 class="contact-info-title">Contact Information</h3>
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div class="contact-details">
+                                    <h4>Phone</h4>
+                                    <p>+49 (0) 123 456 789</p>
+                                    <p>Mon-Fri 8:00 - 18:00</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <p>info@pfenning-logistics.com</p>
+                                    <p>sales@pfenning-logistics.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="contact-details">
+                                    <h4>Address</h4>
+                                    <p>Logistics Center<br>12345 Business District<br>Germany</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Interest</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a service</option>
+                                    <option value="logistics">Logistics</option>
+                                    <option value="mobility">Mobility</option>
+                                    <option value="manufacturing">Manufacturing</option>
+                                    <option value="personnel">Personnel leasing</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-large btn-full">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-logo">
+                        <div class="logo-cube"></div>
+                        <span class="logo-text">pfenning logistics</span>
+                    </div>
+                    <p class="footer-description">
+                        Part of Your Process. We are your trusted partner in comprehensive logistics solutions, 
+                        driving innovation and excellence in supply chain management across the globe.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fas fa-globe"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-list">
+                        <li><a href="#">Logistics</a></li>
+                        <li><a href="#">Mobility</a></li>
+                        <li><a href="#">Manufacturing</a></li>
+                        <li><a href="#">Personnel leasing</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2025 pfenning logistics || Developed By WebDevTaslima || All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
